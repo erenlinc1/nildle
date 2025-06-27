@@ -80,10 +80,10 @@ body {
     align-items: center;
     justify-content: center;
 
-    white-space: nowrap;
+    white-space: normal;
     overflow: hidden;
-    text-overflow: ellipsis;
-    
+    text-overflow: clip;
+    word-break: break-word;
     padding: 0 0.4em;
 }
 
