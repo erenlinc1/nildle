@@ -143,7 +143,6 @@ function buttonPress(){
     //if user reached this point, it must be a valid selection
 
     chosenclass= classTree[classcategory][userinput];
-    //console.log(chosenclass.name + " has " + chosenclass.hp + " health.");
     document.getElementById("goog").value = "";
     // Now we set the values of the boxes
     let hack = Object.values(chosenclass);
