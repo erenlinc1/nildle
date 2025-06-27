@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nildle</title>
+        <meta name="description" content="sup">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>
+            NILDLE v0.1
+        </h1>
+        <h3>
+            Guess classes from "The Fine Game of Nil" using information about them! <br> Green = Correct <br> Peach = Too High <br> Brown: Too Low
+        </h3>
+        <h3 id="tryCounter">
+            Tries remaining: 5 <br>
+        </h3>
+        <input list="brow" id="goog">
+            <datalist id="brow">
+            <option value="Accelerator">
+            <option value="Broom">
+            <option value="Burglar">
+            <option value="Counter-Striker">
+            <option value="Dance Commander">
+            </datalist>
+        <button onclick="buttonPress()">
+            Press me to submit!
+        </button> 
+        <div class="choice-display">
+           <div class="choice">
+            <p class="something"> Category</p>
+            <p class="something"> Max Health</p>
+            <p class="something"> Movement Speed</p>
+            <p class="something"> Cooldown 1</p>
+            <p class="something"> Cooldown 2</p>
+            <p class="something"> Cooldown 3</p>
+           </div>
+           <div class="choice">
+            <p id= "CAT1" class="something"> Category</p>
+            <p id= "MHP1" class="something"> Max Health</p>
+            <p id= "SPD1" class="something"> Movement Speed</p>
+            <p id= "CD11" class="something"> Cooldown 1</p>
+            <p id= "CD21" class="something"> Cooldown 2</p>
+            <p id= "CD31" class="something"> Cooldown 3</p>
+           </div>
+           <div class="choice">
+            <p id= "CAT2" class="something"> Category</p>
+            <p id= "MHP2" class="something"> Max Health</p>
+            <p id= "SPD2" class="something"> Movement Speed</p>
+            <p id= "CD12" class="something"> Cooldown 1</p>
+            <p id= "CD22" class="something"> Cooldown 2</p>
+            <p id= "CD32" class="something"> Cooldown 3</p>
+           </div>
+           <div class="choice">
+            <p id= "CAT3" class="something"> Category</p>
+            <p id= "MHP3" class="something"> Max Health</p>
+            <p id= "SPD3" class="something"> Movement Speed</p>
+            <p id= "CD13" class="something"> Cooldown 1</p>
+            <p id= "CD23" class="something"> Cooldown 2</p>
+            <p id= "CD33" class="something"> Cooldown 3</p>
+           </div>
+           <div class="choice">
+            <p id= "CAT4" class="something"> Category</p>
+            <p id= "MHP4" class="something"> Max Health</p>
+            <p id= "SPD4" class="something"> Movement Speed</p>
+            <p id= "CD14" class="something"> Cooldown 1</p>
+            <p id= "CD24" class="something"> Cooldown 2</p>
+            <p id= "CD34" class="something"> Cooldown 3</p>
+           </div>
+          <div class="choice">
+            <p id= "CAT5" class="something"> Category</p>
+            <p id= "MHP5" class="something"> Max Health</p>
+            <p id= "SPD5" class="something"> Movement Speed</p>
+            <p id= "CD15" class="something"> Cooldown 1</p>
+            <p id= "CD25" class="something"> Cooldown 2</p>
+            <p id= "CD35" class="something"> Cooldown 3</p>
+           </div>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
