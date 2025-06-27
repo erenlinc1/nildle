@@ -195,6 +195,6 @@ function endGame(state){
         alert("Congrats! You have won! Refresh the page to play again.")
     }
     else {
-        alert("You lost! Refresh the page to play again.")
+        alert("You lost! The class was: "+lord+ "\n Refresh the page to play again.")
     }
 };
