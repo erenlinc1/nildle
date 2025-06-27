@@ -119,7 +119,6 @@ var actualCategory = String(availableCategories[availableCategories.length * Mat
 var availableClasses = Object.keys(classTree[actualCategory])
 var lord = String(availableClasses[availableClasses.length * Math.random() | 0])
 var actualClass = Object.values(classTree[actualCategory][lord])
-console.log(actualClass)
 
 
 
