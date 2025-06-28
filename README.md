@@ -6,3 +6,4 @@ A "Wordle-like" game based on the roblox game "The Fine Game Of Nil" by flowerof
 - Add daily mode
 - Add changelog on site
 - Make element placements more consistent so it's easier to add more stuff
+- add music!
