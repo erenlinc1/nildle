@@ -88,7 +88,7 @@ const classTree = {
         psionic: new classObject(100,16,8,10,15),
         reaper: new classObject(100,16,4,8,20),
         shotokan: new classObject(80,16,5,8,10),
-        sunslammer: new classObject(100,16,1,20,30),
+        sunslammer: new classObject(100,16,15,20,30),
         survivalist: new classObject(100,16,0,6,6),
         swordfighter: new classObject(100,16,6,8,12),
         swordmaster: new classObject(100,16,12,12,15),
