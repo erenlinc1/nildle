@@ -180,7 +180,7 @@ function buttonPress(){
     document.getElementById("tryCounter").innerHTML = "Tries remaining: " + tries;
     if (userinput == lord){
         endGame(true)
-        document.getElementById("tryCounter").innerHTML = "You won with " + tries + "tries remaining"
+        document.getElementById("tryCounter").innerHTML = "You won with " + tries + " tries remaining"
     }
     else if (tries==0) {
         endGame(false);
