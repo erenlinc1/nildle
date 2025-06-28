@@ -175,13 +175,14 @@ function buttonPress(){
             currentElement.style.backgroundColor ="green"
         }
     }
-    if (userinput == lord){
-        endGame(true)
-    }
 
     tries = tries -1;
     document.getElementById("tryCounter").innerHTML = "Tries remaining: " + tries;
-    if (tries==0) {
+    if (userinput == lord){
+        endGame(true)
+        document.getElementById("tryCounter").innerHTML = "You won with " + tries + "tries remaining"
+    }
+    else if (tries==0) {
         endGame(false);
         document.getElementById("tryCounter").innerHTML = "You have no more tries!";
     }
