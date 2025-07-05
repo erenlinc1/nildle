@@ -35,13 +35,14 @@ const classTree = {
         idpd: new classObject(60,17,8,12,20),
         illumina: new classObject(100,16,15,20,30),
         pirate: new classObject(90,15,8,12,16),
+        sicklekind: new classObject(80,17,8,8,8),
         sorcerer: new classObject(60,16,6,12,15),
         thunderstruck: new classObject(75,18,6,10,15),
         trafficwarden: new classObject(60,15,0,8,20)
     },
     rushdowns: {
         amateurdentist: new classObject(90,16,5,8,10),
-        caretaker: new classObject(80,16,3,10,15),
+        caretaker: new classObject(60,16,8,10,20),
         demon: new classObject(60,18,5,6,10),
         doombringer: new classObject(75,16,6,12,20),
         dwarf: new classObject(75,20,1,10,15),
@@ -54,6 +55,7 @@ const classTree = {
         nightcreeper: new classObject(75,20,10,12,12),
         ninja: new classObject(60,20,5,10,10),
         ruiner: new classObject(60,20,4,10,15),
+        subjugator: new classObject(50,18,10,10,10),
         ultra: new classObject(75,18,8,8,16)
     },
     punishers: {
