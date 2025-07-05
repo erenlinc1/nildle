@@ -109,7 +109,7 @@ const classTree = {
         hollis: new classObject(100,16,5,8,15),
         medic: new classObject(40,16,4,20,30),
         mixmaster: new classObject(25,13,1,10,60),
-        nostalgia: new classObject(80,16,3,6,30),
+        noob: new classObject(80,16,3,6,30),
         priest: new classObject(50,16,6,8,30),
         surgeon: new classObject(90,16,6,6,15),
         warlock: new classObject(80,17,2,6,10),
