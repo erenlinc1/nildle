@@ -2,8 +2,7 @@
 A "Wordle-like" game based on the roblox game "The Fine Game Of Nil" by flowerofthewise.
 
 ## Changelog
-- Added the 2 new classes as of 05.07.25
-- Updated caretaker stats
+- Added whaler
 
 
 
