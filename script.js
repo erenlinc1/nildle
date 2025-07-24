@@ -106,7 +106,7 @@ const classTree = {
         brosbro: new classObject(50,20,6,8,15),
         claymore: new classObject(100,16,0,15,15),
         correspondent: new classObject(40,15,5,20,20),
-        deathspeaker: new classIbject(80,16,6,12,12),
+        deathspeaker: new classObject(80,16,6,12,12),
         dicekind: new classObject(80,16,1,1,8),
         doom: new classObject(80,16,0,1,12),
         hollis: new classObject(100,16,5,8,15),
