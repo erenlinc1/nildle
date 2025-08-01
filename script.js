@@ -52,6 +52,7 @@ const classTree = {
         freak: new classObject(75,18,10,26,30),
         heirofbreath: new classObject(80,16,6,8,20),
         holydiver: new classObject(50,18,6,12,14),
+        hunter: new classObject(50,19,8,10,10),
         neophyte: new classObject(80,18,5,10,15),
         nightcreeper: new classObject(75,20,10,12,12),
         ninja: new classObject(60,20,5,10,10),
