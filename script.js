@@ -38,6 +38,7 @@ const classTree = {
         pirate: new classObject(90,15,8,12,16),
         sicklekind: new classObject(80,17,8,8,8),
         sorcerer: new classObject(60,16,6,12,15),
+        spacebender: new classObject(80,16,1,3,15),
         thunderstruck: new classObject(75,18,6,10,15),
         trafficwarden: new classObject(60,15,0,8,20)
     },
@@ -203,3 +204,4 @@ function endGame(state){
         alert("You lost! The class was: " + lord + "\nRefresh the page to play again.")
     }
 };
+
