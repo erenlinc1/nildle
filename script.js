@@ -88,6 +88,7 @@ const classTree = {
         cultist: new classObject(90,16,1,10,12),
         darkheart: new classObject(100,16,10,15,15),
         deckard: new classObject(90,16,10,10,10),
+        eldritch: new classObject(100,16,8,12,16),
         gravedigger: new classObject(80,16,0,6,12),
         gunsword: new classObject(90,16,0,4,10),
         hollow: new classObject(90,16,0,15,30),
@@ -204,4 +205,5 @@ function endGame(state){
         alert("You lost! The class was: " + lord + "\nRefresh the page to play again.")
     }
 };
+
 
