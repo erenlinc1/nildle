@@ -2,11 +2,11 @@
 A "Wordle-like" game based on the roblox game "The Fine Game Of Nil" by flowerofthewise.
 
 ## Changelog
-- Added Hunter ^_^
+- Added Windforce ^_^
 
 
 
-#Planned Features
+# Planned Features
 - hints to make the game easier (For example: Has alt move? Has Cosmetic? Unlock method?)
 - daily mode
 - changelog on site
