@@ -79,7 +79,8 @@ const classTree = {
         professionaldentist: new classObject(50,18,5,0,8),
         soldier: new classObject(100,16,8,10,15),
         timelord: new classObject(60,17,6,12,25),
-        whaler: new classObject(75,16,12,12,24)
+        whaler: new classObject(75,16,12,12,24),
+        windforce: new classObject(100,16,4,10,10)
     },
     barragers: {
         adventurer: new classObject(100,16,0,0,15),
@@ -205,5 +206,6 @@ function endGame(state){
         alert("You lost! The class was: " + lord + "\nRefresh the page to play again.")
     }
 };
+
 
 
